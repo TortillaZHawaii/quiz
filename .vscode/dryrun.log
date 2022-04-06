@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/tortilla/embedded/lab2/buildroot-2022.02/package/quiz'
+make: Leaving directory '/home/tortilla/embedded/lab2/buildroot-2022.02/package/quiz'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

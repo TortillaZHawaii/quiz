@@ -1,0 +1,8 @@
+config BR2_PACKAGE_QUIZ
+	bool "quiz"
+	depends on BR2_PACKAGE_LIBGPIOD
+	help
+	  Simple quiz using libgpiod
+
+comment "quiz depends on libgpiod library"
+	depends on !BR2_PACKAGE_LIBGPIOD
